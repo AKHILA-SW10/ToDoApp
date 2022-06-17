@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var todoAdapter: ToDoAdapter
-
+    private var eg=""
     private lateinit var db: Db
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
