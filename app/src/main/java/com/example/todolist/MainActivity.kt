@@ -7,6 +7,7 @@ import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
+//verify
 class MainActivity : AppCompatActivity() {
     private lateinit var todoAdapter: ToDoAdapter
 
